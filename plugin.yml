@@ -8,6 +8,7 @@ commands:
  chaton:
   description: "Bật chat liên sv"
   usage: /chaton
+ chatoff:
   description: "tắt chat liên sv"
   usage: /chatoff
  stopmultichat:
