@@ -1,0 +1,18 @@
+name: MultiServerChat
+main: tungsten3\Main
+version: 0.0.2
+api: [3.0.0-ALPHA12,3.0.0,3.0.6,4.0.0]
+author: tungsten
+
+commands:
+ chaton:
+  description: "Bật chat liên sv"
+  usage: /chaton
+  description: "tắt chat liên sv"
+  usage: /chatoff
+ stopmultichat:
+  description: "Tắt plugin"
+  usage: /stopmultichat
+  permission: tungsten.chatliensv
+  default: op 
+
